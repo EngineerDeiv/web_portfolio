@@ -84,6 +84,7 @@ const resources = {
     }
   },
 
+  // ENGLISH SECCTION
   en: {
     translation: {
       // Navigation
@@ -171,8 +172,8 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'es', // idioma por defecto
-    fallbackLng: 'es',
+    lng: 'en', // idioma por defecto
+    fallbackLng: 'en',
     
     detection: {
       order: ['localStorage', 'navigator', 'htmlTag'],
