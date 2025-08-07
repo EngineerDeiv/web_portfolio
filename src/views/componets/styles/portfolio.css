@@ -525,18 +525,22 @@ body {
   
   /* Hero section mobile */
   .hero-section {
-    padding: 2rem 0;
+    padding: 3rem 0 2rem 0;
     text-align: center;
+    margin-top: 1rem;
   }
   
   .hero-content {
     padding: 0 1rem;
+    margin-top: 1.5rem;
   }
   
   .hero-title {
     font-size: 2rem !important;
     line-height: 1.2;
     margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
   }
   
   .hero-subtitle {
