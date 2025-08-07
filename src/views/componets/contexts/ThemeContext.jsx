@@ -8,8 +8,8 @@ export const ThemeProvider = ({ children }) => {
     if (saved) {
       return saved === 'dark'
     }
-    // Si no hay preferencia, usar la preferencia del sistema
-    return window.matchMedia('(prefers-color-scheme: dark)').matches
+    // Por defecto usar modo día (light)
+    return false
   })
 
   useEffect(() => {
